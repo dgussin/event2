@@ -2,7 +2,6 @@ class EventsController < ApplicationController
   
   def index
     @events = Event.upcoming
-    fail
   end
 
   def show
